@@ -87,6 +87,13 @@
         for (var i = 0; i < 6; i++) {
      		newId += charset.charAt(Math.floor(Math.random() * charset.length));
 		}
+		/** 
+		 * 
+		 * 
+		 * TODO: make sure id has a unique value
+		 * 
+		 * 
+		 * **/
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
