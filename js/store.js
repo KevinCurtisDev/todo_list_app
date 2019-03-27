@@ -85,15 +85,20 @@
 	    var charset = "0123456789";
 
         for (var i = 0; i < 6; i++) {
-     		newId += charset.charAt(Math.floor(Math.random() * charset.length));
+			 newId += charset.charAt(Math.floor(Math.random() * charset.length));
+			 
+			//check if newId is already assigned to a todo list item
+			let found = todos.find(function (item) {
+				return item.id === newId;
+			});
+
+			//as long as an id is already assigned, generate a new id
+			while (found) {
+				for (var i = 0; i < 6; i++) {
+					newId += charset.charAt(Math.floor(Math.random() * charset.length));
+				}
+			} 
 		}
-		/** 
-		 * 
-		 * 
-		 * TODO: make sure id has a unique value
-		 * 
-		 * 
-		 * **/
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
@@ -110,10 +115,9 @@
 			callback.call(this, todos);
 		} else {
 
-    		// Assign an ID
+			// Assign an ID
 			updateData.id = parseInt(newId);
-    
-
+	
 			todos.push(updateData);
 			localStorage[this._dbName] = JSON.stringify(data);
 			callback.call(this, [updateData]);
