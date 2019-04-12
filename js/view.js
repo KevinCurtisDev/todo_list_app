@@ -92,6 +92,7 @@
 		});
 	};
 
+
 	View.prototype.render = function (viewCmd, parameter) {
 		var self = this;
 		var viewCommands = {
