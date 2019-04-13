@@ -100,7 +100,9 @@ In order to enhance the ToDo web application with progressive features, the foll
 The competitor is a feature rich to web application that runs in the browser, and is supported by a database that allows for data persistence.
 
 #### Overview
-![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorOverview.png)
+![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competirorOverview.png)
+
+
 
 #### Performance
 ![performance](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPerformance.png)
