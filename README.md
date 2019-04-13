@@ -102,22 +102,51 @@ The competitor is a feature rich to web application that runs in the browser, an
 #### Overview
 ![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competirorOverview.png)
 
-
+The lighthouse audit performed on the competitor web app revealed relatively low scores accross all checks.
 
 #### Performance
 ![performance](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPerformance.png)
 
+The performance score showed a particularly long time to interactive. This result is a bit concerning, as the entire premise of the application is based on user interaction. The web app loads advertisements in iframes. This isn't a best practice. It creates extra calls to the server which slow page loading times. This could be mitigated by lazy loading the iframes or choosing an alternative method to display adds.
+
 #### Best Practices
 ![best practices](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorBestPractices.png)
+
+* The web app doesn't use https as it's transfer protocol. This means the web app is vulnerable to man in the middle attacks, whereby  hacker can easily intercept data moving between the user's browser and the web app's server.
+
+* document.write is used. This is something that is only recommended for test purposes during development and should not be done in a production environment. 
+
+* Javascript libraries with known vulnerabilities are used.
+
+Overall, the web app isn't particularly secure and needs to implement best security practices.
 
 #### Accessibility
 ![accessibility](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorAccessibility.png)
 
+Accessibility issues on this web app include contrast ratio issues. This causes problems for people with impaired vision and should be addressed in the initial design of the web app. There are conflicting duplicate IDs used on the page which can cause a number of functionality issues. The iframes used aren't correctly marked. 
+
+
 #### SEO
 ![SEO](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorSEO.png)
 
+There's a missing viewport meta tag which dramatically decreases SEO. 
+
 #### Progressive Web Application
 ![pwa](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPWA.png)
+
+The following points should be addressed in order for the web app to pass a PWA audit:
+
+* Implement HTTPS
+* Use a service wroker script
+* include a manifest.JSON file
+* Include a theme color met tag
+* resize content to fit the window size (currently misconfigured)
+* Include a viewport meta tag
+
+## Comparison
+The competitor web app is slow to load, however it is feature rich and allows for data persistence across multiple devices. It also offers a mobile version of the application that can be downloaded to a mobile device's homescreen and launched from there. Security is a major concern for this web application and should be addressed imediately. 
+
+"Our" ToDo web application is fast to load and simple to use, however, it doesn't persist data beyond the current browser session. This issue could be addressed by hooking the app up to a database on the backend. Alternatively, we could persist data using a service worker script. The best way forward would be to hook the web app up to a database and include a service worker. this way the data could be persisted between sessions and the aapplication could be used offline. once the user reconnects to the internet, indexDB could be used to update the database in the background. 
 
 ## Further enhancements
 Further enhancements could be made to the ToDo web application by folling the lighthouse audit recommendations. It could also be connected to a database in order to attain datapersistence. A database used in conjunction with a service worker and indexDB would greatly enhance the usability of the application and allow for offline usage.
