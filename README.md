@@ -1,7 +1,7 @@
 # TODO WEB APP
 ## Summary
 
-The ToDo web application is a simple browser based ToDo list, built with vanilla JavaScript, html5 and css3. It uses a Model View Controller (MVC) structure and was developed using a Test Driven Devlopment (TDD) approach (with the jasmine framework). The appication allows a user to add a new todo, edit or delete an existing todo, or select all todos at once and then delete them if desired. The user can also view completed or incpleted ToDos.
+The ToDo web application is a simple browser based ToDo list, built with vanilla JavaScript, html5 and css3. It uses a Model View Controller (MVC) structure and was developed using a Test Driven Devlopment (TDD) approach (with the jasmine framework). The appication allows a user to add a new todo, edit or delete an existing todo, or select all todos at once and then delete them if desired. The user can also view completed or incompleted ToDos.
 
 You can try the ToDo web application live here: [TODO WEB APP](https://the-masta-blasta.github.io/todo_list_app/)
 
@@ -45,8 +45,6 @@ The Jasmin testing framework was used in order to build the application with a t
 
 ### Jasmine Testing details
 
-## Analysis and comparison of ToDo web app with competitor web app
-
 
 ## Deployment
 The app was deployed on github pages and can be viewed at the following link: [TODO WEB APP](https://the-masta-blasta.github.io/todo_list_app/)
@@ -57,6 +55,50 @@ Once the server is running you can view and use the ToDo app in your browser by 
 
 to view the jasmine test suit, add the following extension to the generated url: /SpecRunner.html
 
+## Analysis and comparison of ToDo web app with competitor web app
+Google's lighthouse audit was used for my analyis and comparison of the ToDo web app and a competitor ToDo web app. 
+
+The competitor web app can be viewed at the the following url: [http://todolistme.net/](http://todolistme.net/)
+
+### ToDo web app analysis results
+
+#### Overview
+![overview](./todo-images/ToDoOverview.jgp)
+
+#### Performance
+![overview](./todo-images/ToDoperformance.jgp)
+
+#### Best Practices
+![overview](./todo-images/ToDoBestPractices.jgp)
+
+#### Accessibility
+![overview](./todo-images/ToDoAccessibility.jgp)
+
+#### SEO
+![overview](./todo-images/ToDoSEO.jgp)
+
+#### Progressive Web Application
+![overview](./todo-images/ToDoPWA.jgp)
+
+### Competitor ToDo web app analysis results
+
+#### Overview
+![overview](./todo-images/competitorOverview.jgp)
+
+#### Performance
+![overview](./todo-images/competitorPerformance.jgp)
+
+#### Best Practices
+![overview](./todo-images/competitorBestPractices.jgp)
+
+#### Accessibility
+![overview](./todo-images/competitorAccessibility.jgp)
+
+#### SEO
+![overview](./todo-images/competitorSEO.jgp)
+
+#### Progressive Web Application
+![overview](./todo-images/competitorPWA.jgp)
 
 ## Further enhancements
 I would like to connect the quote generator engine to a quotation API endpoint in order to expand the number of possible quotes generated. I would also like to add a few more categories to choose from.
