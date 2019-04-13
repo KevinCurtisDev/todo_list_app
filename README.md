@@ -27,10 +27,6 @@ As a user of the ToDo we app, I want to...
 * CSS3
 * Vanilla JavaScript
 
-## Design pattern and file structure (MVC)
-
-The design pattern used to build this web application is the Model-View-Controller (MVC) pattern.
-
 
 ## Testing
 Manual testing was carried out, using a python http server, applying the listed user stories above. 
@@ -38,6 +34,12 @@ Manual testing was carried out, using a python http server, applying the listed 
 The Jasmin testing framework was used in order to build the application with a test driven development methodology.
 
 ### Jasmine Testing details
+
+You can see all the tests that were implemented during the development of the web app in the image below:
+
+![Jasmine Testing](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/jasmine.png)
+
+Read the deployment section if you wish to download the application code base and run the jasmine tests on your local machine.
 
 
 ## Deployment
@@ -47,7 +49,7 @@ In order to view the jasmine tests you can clone or download the github repo to 
 
 Once the server is running you can view and use the ToDo app in your browser by visiting the url produced by the python server.
 
-to view the jasmine test suit, add the following extension to the generated url: /SpecRunner.html
+To view the jasmine test suit, add the following extension to the generated url: /test/SpecRunner.html
 
 ## Analysis and comparison of ToDo web app with competitor web app
 Google's lighthouse audit was used for my analyis and comparison of the ToDo web app and a competitor ToDo web app. 

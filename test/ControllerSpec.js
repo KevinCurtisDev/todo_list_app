@@ -164,8 +164,7 @@ describe('controller', function () {
 		//create a test modal
 		setUpModel([]);
 
-		//set the view to the active rout
-		subject.setView('#/active');
+		subject.setView('/');
 
 		//the render method should be called when there is no filter selected
 		expect(view.render).toHaveBeenCalledWith('setFilter', '');
