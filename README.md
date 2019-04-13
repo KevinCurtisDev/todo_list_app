@@ -63,25 +63,47 @@ The competitor web app can be viewed at the the following url: [http://todolistm
 ### ToDo web app analysis results
 
 #### Overview
+
+The Todo web app is a browser based web application, and is not connected to a backend database.
+
 ![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoOverview.png)
+
+The lighthouse audit overview scores positively in the areas of performance and best practices. There are however quite a few improvements that can be made to the ToDo web app in the areas of Accesibility, SEO, and PWA (progressive web app).
 
 #### Performance
 ![perormance](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoperformance.png)
 
+Performance scores are excellent, with no areas in need of improvement. This is due to the ToDo app not needing to load any large scripts or image files.
+
 #### Best Practices
 ![best practices](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoBestPractices.png)
 
+There was one error recorded in the console with regard to a javascript file not being found. This particular error is negligable as the file in question is used for the jasmine test environment, which is seperate from the running of the ToDo app. This error may be mitigated by removing the link to the file in the index.html file.
 
 #### Accessibility
 ![accessibility](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoAccessibility.png)
 
+Accessibility should be improved for users with limited vision and for screen readers. These issues can be resolved by increasing the colour contrast on the page, and by increasing the font size of the small text at the bottom of the page. Aria roles should also be included in order to allow screen readers to navigate through the site in a logical and user friendly order. Reference should be made to WCAG accessibility standards when developing online applications.
+
 #### SEO
 ![SEO](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoSEO.png)
+
+In order to ammend the SEO issues the site should include a meta tag stating the viewport dimensions. Font sizes should also be adjusted to fit with W3C web standards. 
 
 #### Progressive Web Application
 ![PWA](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoPWA.png)
 
+In order to enhance the ToDo web application with progressive features, the following adjustments should be made:
+
+* Include a service worker (to store content for offline viewing)
+* Include a manifest.JSON file (to store information about launching the web app from a mobile phone home screen icon) 
+* Include a meta tag in the index.html file refering to the theme color.
+* Include a viewport meta tag in the index.html file.
+* Use of indexD
+
 ### Competitor ToDo web app analysis results
+
+The competitor is a feature rich to web application that runs in the browser, and is supported by a database that allows for data persistence.
 
 #### Overview
 ![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorOverview.png)
