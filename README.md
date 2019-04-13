@@ -63,42 +63,43 @@ The competitor web app can be viewed at the the following url: [http://todolistm
 ### ToDo web app analysis results
 
 #### Overview
-![overview](./todo-images/ToDoOverview.jgp)
+![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoOverview.jgp)
 
 #### Performance
-![overview](./todo-images/ToDoperformance.jgp)
+![perormance](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoperformance.jgp)
 
 #### Best Practices
-![overview](./todo-images/ToDoBestPractices.jgp)
+![best practices](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoBestPractices.jgp)
+
 
 #### Accessibility
-![overview](./todo-images/ToDoAccessibility.jgp)
+![accessibility](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoAccessibility.jgp)
 
 #### SEO
-![overview](./todo-images/ToDoSEO.jgp)
+![SEO](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoSEO.jgp)
 
 #### Progressive Web Application
-![overview](./todo-images/ToDoPWA.jgp)
+![PWA](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/ToDoPWA.jgp)
 
 ### Competitor ToDo web app analysis results
 
 #### Overview
-![overview](./todo-images/competitorOverview.jgp)
+![overview](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorOverview.jgp)
 
 #### Performance
-![overview](./todo-images/competitorPerformance.jgp)
+![performance](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPerformance.jgp)
 
 #### Best Practices
-![overview](./todo-images/competitorBestPractices.jgp)
+![best practices](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorBestPractices.jgp)
 
 #### Accessibility
-![overview](./todo-images/competitorAccessibility.jgp)
+![accessibility](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorAccessibility.jgp)
 
 #### SEO
-![overview](./todo-images/competitorSEO.jgp)
+![SEO](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorSEO.jgp)
 
 #### Progressive Web Application
-![overview](./todo-images/competitorPWA.jgp)
+![pwa](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPWA.jgp)
 
 ## Further enhancements
 I would like to connect the quote generator engine to a quotation API endpoint in order to expand the number of possible quotes generated. I would also like to add a few more categories to choose from.
