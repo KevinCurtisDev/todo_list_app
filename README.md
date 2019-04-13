@@ -45,11 +45,11 @@ Read the deployment section if you wish to download the application code base an
 ## Deployment
 The app was deployed on github pages and can be viewed at the following link: [TODO WEB APP](https://the-masta-blasta.github.io/todo_list_app/)
 
-In order to view the jasmine tests you can clone or download the github repo to your local machine. You should have python3 installed on your machine. from your terminal or command line CD into the project directory and run a python htp server with the following command: python3 -m http.server 
+In order to view the jasmine tests you can clone or download the github repo to your local machine. You should have python3 installed on your machine. from your terminal or command line CD into the project directory and run a python http server with the following command: python3 -m http.server 
 
 Once the server is running you can view and use the ToDo app in your browser by visiting the url produced by the python server.
 
-To view the jasmine test suit, add the following extension to the generated url: /test/SpecRunner.html
+To view the jasmine test suit, remove add the following extension to the generated url: /test/SpecRunner.html
 
 ## Analysis and comparison of ToDo web app with competitor web app
 Google's lighthouse audit was used for my analyis and comparison of the ToDo web app and a competitor ToDo web app. 
@@ -95,7 +95,7 @@ In order to enhance the ToDo web application with progressive features, the foll
 * Include a manifest.JSON file (to store information about launching the web app from a mobile phone home screen icon) 
 * Include a meta tag in the index.html file refering to the theme color.
 * Include a viewport meta tag in the index.html file.
-* Use of indexD
+* Use of indexDB.
 
 ### Competitor ToDo web app analysis results
 
@@ -141,8 +141,8 @@ The following points should be addressed in order for the web app to pass a PWA 
 * Implement HTTPS
 * Use a service wroker script
 * include a manifest.JSON file
-* Include a theme color met tag
-* resize content to fit the window size (currently misconfigured)
+* Include a theme color meta tag
+* Resize content to fit the window size (currently misconfigured)
 * Include a viewport meta tag
 
 ## Comparison
