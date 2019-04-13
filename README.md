@@ -22,20 +22,14 @@ As a user of the ToDo we app, I want to...
 * ..view active (incomplete) ToDos.
 
 
-## Features
-The above user stories were achieved by implementing a form that included radio buttons -allowing the user to choose between life quotes or miscelaneous quotes. There is also an input field allowing the user to choose up to five quotes. The user can click the "generate quote(S)" button or, if they want to quit, the quit button.
-
-
 ## Technologies used
 * HTML5
 * CSS3
 * Vanilla JavaScript
 
-## Design pattern
+## Design pattern and file structure (MVC)
 
 The design pattern used to build this web application is the Model-View-Controller (MVC) pattern.
-
-## Structure (MVC)
 
 
 ## Testing
@@ -124,4 +118,4 @@ The competitor is a feature rich to web application that runs in the browser, an
 ![pwa](https://github.com/The-masta-blasta/todo_list_app/blob/master/todo-images/competitorPWA.png)
 
 ## Further enhancements
-I would like to connect the quote generator engine to a quotation API endpoint in order to expand the number of possible quotes generated. I would also like to add a few more categories to choose from.
+Further enhancements could be made to the ToDo web application by folling the lighthouse audit recommendations. It could also be connected to a database in order to attain datapersistence. A database used in conjunction with a service worker and indexDB would greatly enhance the usability of the application and allow for offline usage.
